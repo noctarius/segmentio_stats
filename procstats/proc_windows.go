@@ -1,6 +1,6 @@
 package procstats
 
-func collectProcMetrics(pid int) (m proc, err error) {
+func collectProcMetrics(pid int) (m ProcInfo, err error) {
 	// TODO
 	return
 }
